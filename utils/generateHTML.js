@@ -20,7 +20,7 @@ const doc = {
         <div>
             <h2 class="font-weight-bold">Meet the team</h2>
             <p class="text-justify m-3 lead">
-                This are the team members that were input into the application; this text area should be editted in the HTML file to better suit the needs of the team.
+                These are the team members that were input into the application; this text area should be editted in the HTML file to better suit the needs of the team.
             </p>
         </div>
     `,
