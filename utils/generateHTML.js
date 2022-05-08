@@ -125,7 +125,7 @@ function getInternsText(interns){
 function generateFileContents(members) {
     fileContents = doc.top + getManagerText(members.manager);
     if(members.engineers){
-        if(members.engineers.length > 0)  fileContents += getInternsText(members.engineers)
+        if(members.engineers.length > 0)  fileContents += getEngineersText(members.engineers)
     }
     if(members.interns){
         console.log(members.interns[0].id)
